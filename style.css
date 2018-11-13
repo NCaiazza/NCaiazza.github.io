@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+div.section {
+  font-family: 'Lora', serif;
+}
+
+body {
+  background-color: rgba(0,0,255,0.15);
+  height: 100%;
+}
+
+.nav-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 9999;
+}
+
+.nav-item {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.page-title {
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  margin-left: 29%;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*
+End <Cite>
+*/
+
+.work-link {
+  text-decoration: none;
+  padding: 10px;
+  background-color: GRAY;
+  display: block;
+  color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.picture {
+  height: 400px;
+}
+
+.picture-horizontal {
+  width: 400px;
+}
+
+.section1 {
+  margin-top: 5px;
+  margin-left: 25%;
+  display: block;
+  height: 400px;
+  width: 828px;
+  overflow: all;
+}
+
+.section2 {
+  margin-top: 5px;
+  margin-left: 25%;
+  display: block;
+  height: 1990px;
+  width: 828px;
+  overflow: all;
+}
+
+.section3 {
+  margin-top: 5px;
+  margin-left: 25%;
+  display: block;
+  height: 400px;
+  width: 828px;
+  overflow: all;
+}
+
+.side-text-on-right {
+  margin-left: 10px;
+  width: 500px;
+}
+
+.border {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
